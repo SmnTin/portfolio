@@ -66,9 +66,11 @@ pub fn app() -> Html {
                 <Link<Route> classes={classes!("navbar-item")} to={Route::Home}>
                     { "Home" }
                 </Link<Route>>
+                { " | " }
                 <Link<Route> classes={classes!("navbar-item")} to={Route::A}>
                     { "A" }
                 </Link<Route>>
+                { " | " }
                 <Link<Route> classes={classes!("navbar-item")} to={Route::B}>
                     { "B" }
                 </Link<Route>>
